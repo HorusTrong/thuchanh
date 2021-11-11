@@ -17,6 +17,8 @@ int main()
 	cin >> phepToan;
 	if(phepToan=="+"){
 		cout<<"Tong= "<<tong(a,b);
+	}else{
+		cout<<"Hieu= "<<hieu(a,b);
 	}
 	system("pause");
 	return 0;
