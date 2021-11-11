@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
-<<<<<<< HEAD
-int tong(int a, int b);
+
 int hieu(int a, int b){
 	return a-b;
 }
-=======
+
 int tong(int a, int b){
 	return a + b;
 }
-int hieu(int a, int b);
->>>>>>> ef565929babf47ed6d7102629a79adc02f7aa2af
+int tich(int a, int b){
+	return a * b;
+}
+
 
 int main()
 {
@@ -24,8 +25,12 @@ int main()
 	cin >> phepToan;
 	if(phepToan=="+"){
 		cout<<"Tong= "<<tong(a,b);
-	}else{
+	}
+	if(phepToan=="-"){
 		cout<<"Hieu= "<<hieu(a,b);
+	}
+	if(phepToan=="*"){
+		cout<<"Tich= "<<tich(a,b);
 	}
 	system("pause");
 	return 0;
