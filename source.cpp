@@ -1,16 +1,14 @@
 #include <iostream>
 using namespace std;
-<<<<<<< HEAD
-int tong(int a, int b);
+
 int hieu(int a, int b){
 	return a-b;
 }
-=======
+
 int tong(int a, int b){
 	return a + b;
 }
-int hieu(int a, int b);
->>>>>>> ef565929babf47ed6d7102629a79adc02f7aa2af
+
 
 int main()
 {
