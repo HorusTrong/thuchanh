@@ -8,6 +8,9 @@ int hieu(int a, int b){
 int tong(int a, int b){
 	return a + b;
 }
+int tich(int a, int b){
+	return a * b;
+}
 
 
 int main()
@@ -22,8 +25,12 @@ int main()
 	cin >> phepToan;
 	if(phepToan=="+"){
 		cout<<"Tong= "<<tong(a,b);
-	}else{
+	}
+	if(phepToan=="-"){
 		cout<<"Hieu= "<<hieu(a,b);
+	}
+	if(phepToan=="*"){
+		cout<<"Tich= "<<tich(a,b);
 	}
 	system("pause");
 	return 0;
